@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed example </title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <h1>Tabs</h1>
+    <!-- section.tContainer>div.tabs>button.tab[data-target]*3{Animal $}^div.tContent>article.content*3>img[src=images/0$.jpg][alt=animal$]+(p>lorem)*2 -->
+
+    <section class="tContainer">
+        <div class="tabs">
+            <button class="tab selected" data-target="seal" data-theme="seal">Seal</button>
+            <button class="tab" data-target="turtle" data-theme="turtle">Turtle </button>
+            <button class="tab" data-target="shark" data-theme="shark">Shark</button>
+        </div>
+        <div class="tContent">
+            <article class="content selected" data-theme="seal" id="seal">
+                <img src="images/01.jpg" alt="seal">
+                <h2>Harbor Seal</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis corrupti molestias a cumque! Possimus accusamus quae, fugit sapiente repudiandae quod ullam earum, adipisci a ea, hic laborum est nisi vitae.</p>
+                <p>Vel, unde pariatur! Placeat maiores optio vitae corrupti autem, hic repellat voluptatem sint explicabo quas minima cupiditate, impedit laboriosam id officiis maxime dignissimos atque cum expedita molestiae esse quidem nisi!</p>
+            </article>
+            <article class="content" data-theme="turtle" id="turtle">               
+                <img src="images/02.jpg" alt="turtle">
+                <h2>Sea Turtle</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A cumque rem blanditiis, laudantium nisi, ipsa neque facilis hic nobis reprehenderit est distinctio labore quibusdam! Iusto officiis incidunt tempore architecto quisquam?</p>
+                <p>Harum, hic dolore dolores dicta dignissimos eveniet fugit in eum officia rem iure qui neque magnam rerum perferendis corrupti tenetur labore? Quod quasi odio labore quibusdam eaque consequatur corrupti vitae!</p>
+            </article>
+            <article class="content" data-theme="shark" id="shark">
+                <img src="images/03.jpg" alt="shark">
+                <h2>Malo shark</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, magnam. Impedit ratione omnis excepturi consectetur, quisquam architecto, hic sint, ad minus fugit error officiis quis laborum dolorem! Nostrum, explicabo quas.</p>
+                <p>Sed numquam culpa totam quo nemo a fugit et porro laudantium repellat cumque veniam aliquid accusamus, quisquam labore est. Distinctio illum, sint eligendi totam mollitia et reprehenderit aspernatur voluptatibus amet.</p>
+            </article>
+        </div>
+    </section>
+    
+    <script src="scripts/ex1.js"></script>
+</body>
+</html>
